@@ -27,6 +27,7 @@ namespace BanksCoinExton
             {
                 Program p = new Program();
                 p.GetRandomHexNumber();
+                System.Threading.Thread.Sleep(1000);
             }
         }
 
