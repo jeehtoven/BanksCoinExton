@@ -80,5 +80,67 @@ namespace BanksCoinExton
             return duplicate;
 
         }
+
+        public string Transaction(string sender, string recipient, int amount, string category)
+        {
+            String directory = @"C:\BanksCoin\hash";
+            String usedHashFile = @"C:\BanksCoin\client\usedHashFile.txt";
+            String generalLedger = @"C:\BanksCoin\gl\generalledger_" + DateTime.Today.ToShortDateString().Replace("/", "_") + ".txt";
+            String[] directoryFileNames = Directory.GetFiles(directory);
+            IEnumerable<String> onlyA;
+            int count = 0;
+            string hash = String.Empty;
+            string line;
+            int counter = 0;
+
+            foreach (string directoryFileName in directoryFileNames)
+            {
+                if (File.Exists(usedHashFile))
+                {
+                    String[] linesA = File.ReadAllLines(directoryFileName);
+                    String[] linesB = File.ReadAllLines(usedHashFile);
+
+                    onlyA = linesA.Except(linesB);
+
+                    foreach (string a in onlyA)
+                    {
+                        count++;
+                        hash = a;
+                    }
+                }
+
+                else
+                {
+                    // Read the file and display it line by line.  
+                    System.IO.StreamReader file =
+                        new System.IO.StreamReader(directoryFileName);
+                    while ((line = file.ReadLine()) != null)
+                    {
+                        //System.Console.WriteLine(line);
+                        hash = line;
+                        counter++;
+                    }
+                }
+
+            }
+
+            if (!File.Exists(usedHashFile))
+            {
+                Directory.CreateDirectory(@"C:\BanksCoin\client");
+                File.WriteAllText(usedHashFile, hash + Environment.NewLine);
+            }
+
+            else File.AppendAllText(usedHashFile, hash + Environment.NewLine);
+
+            if (!File.Exists(generalLedger))
+            {
+                Directory.CreateDirectory(@"C:\BanksCoin\gl");
+                File.AppendAllText(generalLedger, DateTime.Now.ToString() + ";" + sender + ";" + recipient + ";" + amount + ";" + hash + ";" + category + Environment.NewLine);
+            }
+
+            else File.AppendAllText(generalLedger, DateTime.Now.ToString() + ";" + sender + ";" + recipient + ";" + amount + ";" + hash + ";" + category + Environment.NewLine);
+
+            return hash;
+        }
     }
 }

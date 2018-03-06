@@ -8,3 +8,14 @@ C:\Users\jbanks\Desktop\BanksCoinExton\BanksCoinExton\BanksCoinExton\bin\Debug\B
 C:\Users\jbanks\Desktop\BanksCoinExton\BanksCoinExton\BanksCoinExton\bin\Debug\BanksCoinExton.pdb
 C:\Users\jbanks\Desktop\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.exe
 C:\Users\jbanks\Desktop\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.pdb
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.csprojResolveAssemblyReference.cache
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.Client.resources
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.Form1.resources
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.Properties.Resources.resources
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.csproj.GenerateResource.Cache
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.csproj.CoreCompileInputs.cache
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.exe
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\obj\Debug\BanksCoinExton.pdb
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\bin\Debug\BanksCoinExton.exe.config
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\bin\Debug\BanksCoinExton.exe
+C:\Users\jbanks\Desktop\Booby\Booby\bin\Debug\BanksCoinExton\BanksCoinExton\BanksCoinExton\bin\Debug\BanksCoinExton.pdb

@@ -35,5 +35,11 @@ namespace BanksCoinExton
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Client c = new Client();
+            c.Show();
+        }
     }
 }
